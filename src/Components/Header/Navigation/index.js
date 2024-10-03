@@ -2,7 +2,6 @@ import Button from '@mui/material/Button';
 import { IoIosMenu } from "react-icons/io";
 import { FaAngleDown } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
-import { CiHome } from "react-icons/ci";
 
 const Navigation = () => {
     return (
@@ -20,13 +19,14 @@ const Navigation = () => {
                 </div>
                 <div className="col-sm-9 navPart2 d-flex align-items-center">
                     <ul className='list list-inline ml-alto'>
-                        <li className='list-inline-item'><Link to="/"><CiHome/> &nbsp; Home</Link></li>
+                        <li className='list-inline-item'><Link to="/">Home</Link></li>
                         <li className='list-inline-item'><Link to="/">Fashion</Link></li>
                         <li className='list-inline-item'><Link to="/">Electronic</Link></li>
                         <li className='list-inline-item'><Link to="/">Bakery</Link></li>
                         <li className='list-inline-item'><Link to="/">Grocery</Link></li>
+                        <li className='list-inline-item'><Link to="/">Mobiles</Link></li>
                         <li className='list-inline-item'><Link to="/">Blog</Link></li>
-                        <li className='list-inline-item'><Link to="/">Contact Us</Link></li>
+                        <li className='list-inline-item'><Link to="/">Contact</Link></li>
                     </ul>
                 </div>
             </div>
