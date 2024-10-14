@@ -71,6 +71,13 @@ nav .navPart2 ul li a:hover{background: #f0faff; color: #2bbef9;}
 nav .navPart1{max-width: 21%; flex: 0 0 21%}
 nav .navPart2{max-width: 79%; flex: 0 0 79%}
 
+nav .navPart1 .catWrapper{position: relative;}
+nav .navPart1 .catWrapper .sidebarNav{width: 100%; height: 0px; opacity: 0; background: #fff; position: absolute; top: 136%; left: 0px; border: 1px solid rgba(0,0,0,0.1); padding: 15px 0px; transition: all 0.2s; visibility: hidden; overflow: hidden;}
+nav .navPart1 .catWrapper .sidebarNav ul li{width: 100%; list-style: none; padding: 0px 15px;}
+nav .navPart1 .catWrapper .sidebarNav ul li button{color: #000; width: 100%; justify-content: flex-start; text-transform: capitalize !important;}
+nav .navPart1 .catWrapper .sidebarNav ul li button:hover{background: transparent !important;}
+nav .navPart1 .catWrapper .sidebarNav.open{height: auto; opacity: 1; visibility: inherit;}
+
 nav .navPart2 ul li{position: relative;}
 nav .navPart2 ul li .submenu{position: absolute; top:150%; left: 0px; min-width: 200px; background: #fff; opacity: 0; visibility: hidden; transition: all 0.1s ease-in-out;}
 nav .navPart2 ul li .submenu a{display: block; width: 100%;}
